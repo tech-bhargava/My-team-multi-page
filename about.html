@@ -21,11 +21,16 @@
       <div class="about_link_sec">
         <ul class="nav_links">
           <span class="logo_heading">myteam</span>
-          <li><a  href="index.html">home</a></li>
-          <li><a class="color_nav" href="about.html">about</a></li>
+          <div class="nav_items">
+            <li><a  href="index.html">home</a></li>
+            <li><a class="color_nav" href="about.html">about</a></li>
+          </div>
+          
         </ul>
-        <div>
-          <button class="btn03"><a href="contact.html">contact us</a></button>
+        <div  class="nav_buttons">
+          <button class="btn03 btn01"  id='contact_us'><a href="contact.html">contact us</a></button>
+          <button class="hamburger">≡</button>
+          <!-- <button class="menu_cancel">X</button> -->
         </div>
       </div>
       <div class="about_content">
@@ -193,7 +198,7 @@
           <h1 class="footer_heading">myteam</h1>
           <ul class="footer_nav_links">
             <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about</a></li>
+            <li><a href="about.html"  class="color_nav">about</a></li>
           </ul>
         </div>
           <div>
@@ -213,5 +218,6 @@
               <p class="copyright">Copyright 2020, All Rights Reserved.</p>
           </div>
         </footer>
+    <script src="script.js"></script>
   </body>
 </html>
