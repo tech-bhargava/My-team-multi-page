@@ -1050,6 +1050,7 @@ display: none;
     }
     .banner_sec{
       height: 600px;
+      padding: 0% 4%;
     }
    .link_sec{
     padding: 4% 2%;
@@ -1184,7 +1185,7 @@ display: none;
   width: 90px;
   position: absolute;
   right: 12px;
-  bottom: -308px;
+  bottom: -316px;
   border: 60px solid #f0807b;
   border-left-color: transparent;
   border-top-color: transparent;
@@ -1226,7 +1227,7 @@ display: none;
   position: relative;
   float: right;
   margin-right: 250px;
-  left: 30px;
+  left: 38px;
   bottom: -80px;
  
   z-index: 2;
